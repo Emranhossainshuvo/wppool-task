@@ -6,8 +6,8 @@
     <title>Wppool</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <nav class="flex justify-between items-center">
+  <body class="max-w-screen-xl mx-auto">
+    <nav class="flex  justify-between items-center">
       <!-- section for website name and the logo -->
       <section class="flex item-center gap-[5px]">
         <img
@@ -22,15 +22,58 @@
         <!-- white https://i.ibb.co/smhjz4n/icons8-share-100-1.png -->
         <!-- div for the share icon -->
         <div>
-          <img class="w-[20px]" src="https://i.ibb.co/vD5tnfS/icons8-share-100.png" alt="" />
+          <img
+            class="w-[20px] border-2 rounded-full"
+            src="https://i.ibb.co/vD5tnfS/icons8-share-100.png"
+            alt=""
+          />
         </div>
         <div>
-          <button>Download the 2024 Report</button>
+          <button class="bg-[#2042b6] text-xs text-white p-1 rounded-full px-3">
+            Download the 2024 Report
+          </button>
         </div>
         <div>
-            <img class="w-[30px]" src="https://i.ibb.co/k34LFd9/icons8-menu-50.png" alt="">
+          <img
+            class="w-[30px]"
+            src="https://i.ibb.co/k34LFd9/icons8-menu-50.png"
+            alt=""
+          />
         </div>
       </section>
     </nav>
+    <!-- banner section -->
+    <section style="background-image: url('https://i.ibb.co/6W6tXmY/2035200-7672-removebg-preview.png');" class="bg-[#2042b6] bg-cover text-white flex justify-between h-[60vh]">
+      <!-- banner compnay information -->
+      <div class="">
+        <div>
+          <h3 class="text-3xl">60</h3>
+          <p>Companies</p>
+        </div>
+        <div>
+          <h3 class="text-3xl">$100B</h3>
+          <p>Market cap</p>
+        </div>
+        <div>
+          <h3 class="text-3xl">3.5x</h3>
+          <p>Revenue multiple</p>
+        </div>
+        <div>
+          <h3 class="text-3xl">60%</h3>
+          <p>LTM avg. revenue growth rate</p>
+        </div>
+      </div>
+      <div>
+        <h5 class="text-5xl">
+          The WPPOOL Index
+        </h5>
+        <p>
+          Monitor the performance of emerging, publicly traded, financial technology companies
+        </p>
+      </div>
+      <div>
+        <img src="https://i.ibb.co/GWbcVsj/icons8-arrow-down-50.png" alt="">
+      </div>
+    </section>
   </body>
 </html>
